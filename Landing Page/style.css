@@ -1,0 +1,234 @@
+body{
+    width: 100vw;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    margin-top: 1px;
+    /* border: 10px black solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    padding: 5px;
+    padding-right: 0px;
+    margin-right: 0;
+    border-bottom: 1px solid #38bdf8;
+    
+    
+}
+
+.links{
+    margin: 0;
+    padding: 0;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+header ul a{
+    color: #38bdf8;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+svg{
+    width: 30px;
+    margin-left: 10px;
+}
+
+svg:hover{
+    fill: #38bdf8;
+}
+
+header img{
+    width: 200px;
+    height: 120px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section{
+    margin-top: 50px;
+    background-image: url('img/mac1.jpg');
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center;
+    font-size:x-large;
+}
+
+.heading{
+    grid-column: 2/5;
+}
+
+.heading button{
+    width: 200px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: large;
+}
+.information{
+    margin-top: -100px;
+    display: flex;
+}
+
+.information .side{
+    width: 600px;
+    height: 400px;
+}
+
+.computer{
+    background-image: url(img/mac2.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.work{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #38bdf8;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 40px;
+}
+.project{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+    box-shadow: 0px 2px  1.5px;
+}
+
+.project div{
+    background-color: #fff;
+    border: .2px solid grey;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.project h2{
+    font-family: serif;
+}
+.project p{
+    color: rgb(128, 127, 127);
+    font-size: large;
+}
+.reason{
+    margin-top: .5px;
+    /* margin-bottom: 100px; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 500px;
+}
+
+.building{
+    background-image: url(img/building.jpg);
+    filter: opacity(90%) brightness(70%) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 70px;
+}
+
+
+.choose{
+    background-color: rgb(242, 242, 242);
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    padding: 70px;
+}
+
+.choose ul{
+    padding-left: 0px;
+}
+.choose li{
+    list-style: none;
+    margin: 20px;
+}
+.sub{
+    padding: 40px;
+    /* border: 10px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub h2{
+    text-align: center;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img{
+    background-color: #38bdf8;
+    height: 300px;
+    width: 400px;
+}
+
+
+.sub-section{
+    display: grid;
+    grid-template-columns: repeat(2, 380px);
+    grid-template-rows: repeat(2,1fr);
+    gap: 80px;
+    color: rgb(87, 87, 87);
+}
+
+footer{
+    background-color: rgb(32, 44, 93);
+    color: rgb(223, 223, 223);
+    margin-bottom: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+footer a{
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+}
+
+@media screen {
+    
+}
