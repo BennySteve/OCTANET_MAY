@@ -146,7 +146,7 @@ header img{
 }
 
 .building{
-    background-image: url(Landing%20page/img/building.jpg);
+    background-image: url(Landing%20Page/img/building.jpg);
     filter: opacity(90%) brightness(70%) ;
     background-repeat: no-repeat;
     background-size: cover;
