@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    background-color: #FFE6E6;
+    color: #000;
+}
+
+header{
+    border-bottom: rgb(78, 78, 78) 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add{
+    height: 50px; ;
+    width: 120px;
+    border:none ;
+    border-radius: 4px;
+    background-color: #7469B6;
+    color: #fff;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+dialog{
+    /* display: block; */
+    border-radius: 10%;
+    border: none;
+    box-shadow: 3px 3px 10px 5px rgb(94, 94, 94);
+}
+form{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-rows:repeat(4,1fr) ;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-size: large;
+}
+
+label{
+    grid-column: 1/2;
+}
+
+input{
+    /* grid-row: 1/2; */
+    grid-column: 2/4;
+    height: 20px;
+    background-color: #E1AFD1;
+    border:none;
+    border-radius: 5px;
+    padding: 2.5px;
+}
+
+form button{
+    grid-row: 4/5;
+    background-color: #7469B6;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    border-radius: 6px;
+}
+
+.close{
+    grid-column: 3/4;
+}
+
+.card{
+    height: 200px;
+    background-color: #AD88C6;
+    border: rgb(116, 105, 182) 1px solid;
+    color: #FFf;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size:larger;
+    box-shadow: 5px 5px 5px 1px rgb(35, 35, 35);
+}
+
+.card h4{
+    margin-top: -1px;
+    margin-bottom: 20px;
+}
+
+.card *{
+    margin: 5px;
+}
+
