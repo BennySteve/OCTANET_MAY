@@ -5,6 +5,9 @@ body{
     background:linear-gradient(-90deg,#e2c5f1,#645a9b) ;
     color: #000;
     font-size: large;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-attachment: fixed;
 }
 
 header{
