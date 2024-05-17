@@ -148,3 +148,13 @@ form .insert{
     width: 140px;
     height: 25px;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .container{
+        grid-template-columns:1fr ;
+    }
+}
