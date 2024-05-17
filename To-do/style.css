@@ -157,4 +157,8 @@ form .insert{
     .container{
         grid-template-columns:1fr ;
     }
+
+    .card{
+        align-items: start;
+    }
 }
