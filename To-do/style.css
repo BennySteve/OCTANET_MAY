@@ -3,11 +3,11 @@ body{
     display: grid;
     grid-template-rows: 100px 1fr;
     background:linear-gradient(-90deg,#e2c5f1,#645a9b) ;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-attachment: fixed;
     color: #000;
     font-size: large;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
 }
 
 header{
@@ -107,8 +107,9 @@ form .insert{
 }
 
 .card{
-    height: auto;
-    width: fit-content;
+    height:fit-content ;
+    min-width: 200px;
+    max-width: 400px;
     background-color: #AD88C6;
     border: rgb(116, 105, 182) 1px solid;
     color: #FFf;
@@ -130,6 +131,7 @@ form .insert{
 
 .card *{
     margin: 5px;
+    text-wrap:initial;
 }
 
 .card div{
@@ -146,8 +148,9 @@ form .insert{
 .card select{
     border-radius: 10px;
     width: 140px;
-    height: 25px;
+    height: 20px;
 }
+
 @media only screen and (max-width: 600px) {
     body{
         width: 100vw;
