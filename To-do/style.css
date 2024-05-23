@@ -109,7 +109,7 @@ form .insert{
 .card{
     height:fit-content ;
     min-width: 200px;
-    max-width: 400px;
+    max-width: max-content;
     background-color: #AD88C6;
     border: rgb(116, 105, 182) 1px solid;
     color: #FFf;
@@ -151,7 +151,7 @@ form .insert{
     height: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body{
         width: 100vw;
         overflow-x: hidden;
@@ -164,4 +164,9 @@ form .insert{
     .card{
         align-items: start;
     }
+
+    .card select{
+        align-items: center;
+    }
 }
+
